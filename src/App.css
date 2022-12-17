@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quoteBox{
+  margin: 35vh auto;
+  width: 50%;
+  max-height: 350px;
+  padding: 1rem 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgb(70, 69, 69);
+}
+
+.quote-div{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.quote-div i{
+  font-size: 80px;
+}
+
+.quote-div p{
+  font-size: 25px;
+}
+
+.author-box{
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.quoteBox button{
+  align-self: flex-end;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.arrow{
+  color: white;
+}
+
+.quoteBox button:hover{
+  scale: 1.1;
+}
